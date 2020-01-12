@@ -1,0 +1,8 @@
+
+javac filesplit.java common.java fileowner.java
+
+java fileowner 8000
+
+javac filesplit.java fileutil.java common.java peer.java
+
+java peer 8000 500
